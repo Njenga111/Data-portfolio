@@ -11,7 +11,7 @@
 </div>
 
  
-Welcome to my **portfolio website**! This site showcases my skills, experience, education, projects, and how to get in touch with me. It's built with **React** and **Vite** for a fast, modern web experience. You can explore my work, learn about my journey, and contact me directly.
+<!-- Welcome to my **portfolio website**! This site showcases my skills, experience, education, projects, and how to get in touch with me. It's built with **React** and **Vite** for a fast, modern web experience. You can explore my work, learn about my journey, and contact me directly.
 
 ---
 
@@ -24,7 +24,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+[**Live Demo**](https://codervai.vercel.app/) -->
 ---
 ### 🎯 Project Structure
 ```bash
@@ -143,7 +143,7 @@ You will need to download **Git** and **Node** to run this project.
   ```bash
   node --version
   ```
-
+<!-- 
 # Getting Started 🎯
 
 ### Fork and Clone the Repository 🚀
@@ -191,4 +191,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 <div align="center"> Made with ❤️ by Dominic Njenga </div>
 
-npm a
+npm a -->
