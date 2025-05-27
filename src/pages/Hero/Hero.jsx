@@ -50,17 +50,17 @@ export default function Hero() {
 
   const [code] = useState(`
 const profile = {
-    name: 'Nazmul Hossain',
-    title: 'Full-Stack Developer | Cloud Enthusiast | Problem Solver',
+    name: 'Dominic Njenga',
+    title: 'Data Engineer | Data  | Problem Solver',
     skills: [
-        'React', 'NextJS', 'Redux', 'Express',
+        'React', 'NextJS', 'Python', 'Express',
         'MySQL', 'MongoDB', 'Docker', 'AWS', 'TypeScript',
         'GraphQL', 'Git', 'Linux', 'Discord Development'
     ],
     hardWorker: true,
     quickLearner: true,
     problemSolver: true,
-    yearsOfExperience: 4, 
+    yearsOfExperience: 1, 
     hireable: function() {
         return (
             this.hardWorker &&
@@ -178,7 +178,7 @@ const profile = {
               <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 mb-6 sm:mb-8 animate__animated animate__fadeInDown animate__delay-1s">
                 <div className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></div>
                 <span className="text-gray-300 text-xs sm:text-sm font-medium">
-                  Welcome to my universe
+                  Welcome to my world of data!
                 </span>
               </div>
 
@@ -190,7 +190,7 @@ const profile = {
                     I&apos;m
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Nazmul Hossain
+                      Dominic Njenga
                     </span>
                   </span>
                 </h1>
