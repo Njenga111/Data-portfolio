@@ -103,7 +103,7 @@ portfolio/
 
 ## Sections of the Portfolio
 
-The portfolio website consists of the following sections:
+The portfolio website consists of these sections:
 
 - **Home**: Introduction and a brief overview.
 - **Skills**: A detailed list of my technical skills.
