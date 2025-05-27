@@ -196,7 +196,9 @@ export default function About() {
               className="text-xl text-slate-300 leading-relaxed max-w-2xl"
             >
               Architecting robust data pipelines and distributed systems that transform raw data into strategic assets. 
-              I build infrastructure that scales with your business needs.
+              I build infrastructure that scales with your business needs.Architecting robust data pipelines and distributed systems that transform raw data into strategic assets. 
+              I build infrastructure that scales with your business needs.Architecting robust data pipelines and distributed systems that transform raw data into strategic assets. 
+              I build infrastructure that scales with your business needs.npm 
             </motion.p>
 
             <motion.div
@@ -523,3 +525,46 @@ const CurrentFocusCard = () => (
     </div>
   </motion.div>
 );
+const AboutBackground = () => {
+  const { scrollYProgress } = useScroll();
+  const y = useTransform(scrollYProgress, [0, 1], [0, -100]);
+
+  return (
+    <div className="absolute inset-0 overflow-hidden">
+      {/* Base gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-slate-900 to-gray-950" />
+      
+      {/* Glow points */}
+      <motion.div 
+        className="absolute inset-0 opacity-10"
+        style={{
+          backgroundImage: `
+            radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.1) 0%, transparent 30%),
+            radial-gradient(circle at 80% 70%, rgba(16, 185, 129, 0.1) 0%, transparent 30%)
+          `,
+          y
+        }}
+      />
+      
+      {/* Data streams */}
+      <motion.div
+        className="absolute inset-0 opacity-15"
+        animate={{
+          backgroundPosition: ["0% 0%", "100% 100%"]
+        }}
+        transition={{
+          duration: 30,
+          repeat: Infinity,
+          ease: "linear"
+        }}
+        style={{
+          backgroundImage: `
+            linear-gradient(45deg, transparent 65%, rgba(59, 130, 246, 0.15) 75%, transparent 85%),
+            linear-gradient(-45deg, transparent 65%, rgba(16, 185, 129, 0.15) 75%, transparent 85%)
+          `,
+          backgroundSize: "200px 200px"
+        }}
+      />
+    </div>
+  );
+};
