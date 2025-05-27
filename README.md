@@ -125,7 +125,7 @@ The portfolio website consists of these sections:
 
 ## Installation ⬇️
 
-You will need to download **Git** and **Node** to run this project.
+You will need to download **Git Bash** and **Node** to run this project.
 
 ### Git
 
