@@ -211,8 +211,7 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | OlovaJS creator 🔧 | Crafting frameworks
-                  and coding the future 💻✨
+                   Data Engineer 🔧 | Data  Scientist | Data Analyst | Data storyteller! 
                 </p>
               </div>
 
@@ -248,18 +247,18 @@ const profile = {
               {/* Floating badges */}
               <div className="hidden lg:block absolute left-[5.5rem] top-[2.3rem] animate-float-slow">
                 <div className="px-4 py-2 rounded-lg bg-purple-500/10 backdrop-blur-sm border border-purple-500/20 text-purple-400">
-                  <i className="fas fa-wand-magic-sparkles"></i>&nbsp;&nbsp;UI
-                  Magic
+                  <i className="fas fa-wand-magic-sparkles"></i>&nbsp;&nbsp;Data Pipelines
+        
                 </div>
               </div>
               <div className="hidden lg:block absolute right-10 top-20 animate-float">
                 <div className="px-4 py-2 rounded-lg bg-blue-500/10 backdrop-blur-sm border border-blue-500/20 text-blue-400">
-                  <i className="fas fa-code"></i>&nbsp;&nbsp;Clean Code
+                  <i className="fas fa-code"></i>&nbsp;&nbsp;Data Visualization
                 </div>
               </div>
               <div className="hidden lg:block absolute top-[17rem] left-[70%] transform -translate-x-1/2 animate-float">
                 <div className="px-4 py-2 rounded-lg bg-amber-500/10 backdrop-blur-sm border border-amber-500/20 text-amber-400">
-                  <i className="fas fa-lightbulb"></i>&nbsp;&nbsp;Innovation
+                  <i className="fas fa-lightbulb"></i>&nbsp;&nbsp;Data Insights
                 </div>
               </div>
             </div>
@@ -274,7 +273,7 @@ const profile = {
                     <div className="window-dot bg-green-500"></div>
                     <span className="ml-2 text-sm text-gray-400 flex items-center gap-2">
                       <i className="fas fa-code"></i>
-                      developer.js
+                      dominic_njenga.py
                     </span>
                   </div>
                   <pre className="language-javascript">
@@ -290,7 +289,7 @@ const profile = {
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce flex flex-col items-center gap-2">
           <span className="text-gray-400 text-sm flex items-center gap-2">
             <i className="fas fa-mouse text-blue-400"></i>
-            About me
+            
           </span>
           <i className="fas fa-chevron-down text-blue-400 text-xl"></i>
         </div>
